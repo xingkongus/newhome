@@ -1,0 +1,620 @@
+@charset "utf-8";
+
+/**
+  * @created: 2018.03
+  * @author: kidultyx
+  * @version: 1.6
+  * @desc: 星空网首页
+  */
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei","微软雅黑";
+}
+html,
+body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	min-width: 1200px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.headline{
+	padding-top: 55px;
+	width: 100%;
+	text-align: center;
+}
+.headline .heading{
+	height: 45px;
+	line-height: 45px;
+	color: rgb(35,138,204);
+	font-size: 42px;
+}
+.headline .sub_heading{
+	height: 20px;
+	line-height: 20px;
+	color: rgb(63,157,255);
+	font-family: "MicrosoftJhengHei","华文细黑";
+	font-size: 20px;
+}
+.crosshead{
+	color: rgb(63,157,255);
+	font-family: "MicrosoftJhengHei","华文细黑";
+	text-align: center;
+}
+
+
+/*使用flex布局*/
+.apps .apps_product,
+.recommend .media,
+.aboutus .apartms_introduce{
+	display: flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	justify-content: space-between;
+}
+
+
+/*banner*/
+.banner ,
+.banner .bannerpart {
+	width: 100%;
+	height: 600px;
+}
+.bannerpart .bannershow {
+	position: absolute;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 600px;
+	min-width: 1360px;
+	background-color: rgba(210,210,210,.5); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bannerarrow {	
+	position: absolute;
+	z-index: 1;
+	display: block;
+	margin: 265px 0;
+	width: 40px;
+	height: 70px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.bannerpre {
+	margin-left: 100px;
+	background-image: url(../image/bannerleft.png);
+}
+.bannerpre:hover {
+	background-image: url(../image/bannerleft2.png);
+}
+.bannernex {
+	background-image: url(../image/bannerright.png);
+}
+.bannernex:hover {
+	background-image: url(../image/bannerright2.png);
+}
+.bannerdots {
+	position: absolute;
+	z-index: 1;
+	margin-top: 560px;
+	width: 225px;
+	height: 25px;
+}
+.bannerdots>li {
+	margin-right: 5px;
+	width: 50px;
+	height: 100%;
+	float: left;
+	background-image: url(../image/stagedot.png);
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	list-style: none;
+}
+.bannerdots>li:first-child{
+	margin-left: 5px;
+	background-image: url(../image/stagedoth.png);
+}
+
+
+/*产品*/
+.apps{
+	width: 100%;
+	height: 775px;
+	background-image: url(../image/bg_product.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.apps .apps_product{
+	margin-top: 165px;
+	padding: 0 1%;
+	width: 78%;
+	float: left;
+}
+.apps .apps_product .apps_item{
+	width: 280px;
+	height: 387px;
+	cursor: pointer;
+}
+.apps .apps_product .apps_item .appimg{
+	width: 100%;
+	height: 200px;
+	background-color: rgb(159,166,189);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat; 
+}
+.apps .apps_product .apps_item .appname{
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+	background-color: #7ec0f2;
+	color: rgb(255,255,255);
+	font-size: 30px;
+	text-align: center;
+}
+/*产品 —— 轮播按钮*/
+.apps .apparrow{
+	display: inline-block;
+	margin-top: 275px;
+	width: 10%;
+	height: 55px;
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.apps .apps_leftarrow{
+	float: left;
+	background-image: url(../image/app_acti_left.png);
+}
+.apps .apps_leftarrow:hover{
+	background-image: url(../image/app_acti_lefth.png);
+}
+.apps .apps_rightarrow{
+	float: left;
+	background-image: url(../image/app_acti_right.png);
+}
+.apps .apps_rightarrow:hover{
+	background-image: url(../image/app_acti_righth.png);
+}
+
+
+/*推荐*/
+.recommend{
+	width: 100%;
+	background-image: url(../image/bg_recommend.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*背景蓝条*/
+.recommend .media ,
+.recommend .essay .acticlepart ,
+.recommend .activity .activitycon {
+	background-image: url(../image/bg_recom_sec.png);
+	background-size: 100% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*推文、活动相同样式*/
+.recommend .essay,
+.recommend .activity{
+	width: 100%;
+}
+.recommend .essay .crosshead,
+.recommend .activity .crosshead{
+	margin-bottom: 70px;
+	font-size: 32px;
+}
+
+/*推荐 —— 传媒板块*/
+.recommend .media{
+	padding: 145px 8%;
+	width: 84%;
+	height: 310px;
+}
+.recommend .media .media_item{
+	max-width: 270px;
+	width: 20%;
+	height: 270px;
+}
+.recommend .media .media_item .mitemimg {
+	width: 100%;
+	height: 100%;
+	background-size: 100% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.recommend .media .media_item .mitemimg-1 {
+	background-image: url(../image/design.png);
+}
+.recommend .media .media_item .mitemimg-2 {
+	background-image: url(../image/video.png);
+}
+.recommend .media .media_item .mitemimg-3 {
+	background-image: url(../image/photograph.png);
+}
+.recommend .media .media_item .crosshead{
+	margin-top: 20px;
+	font-size: 25px;
+}
+/*推荐 —— 传媒板块 遮罩层*/
+#bigMediaContainer {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	background-color: rgba(210,210,210,0.7);
+}
+#bigMediaContainer .bigcontent {
+	margin: 0 auto;
+	width: 95%;
+	height: 100%;
+}
+#bigMediaContainer .bigcontent #conshow {
+	float: left;
+	padding: 0 2%;
+	width: 80%;
+	height: 600px;
+}
+#bigMediaContainer .bigcontent #conshow .con {
+	width: 100%;
+	height: 500px;
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#bigMediaContainer .bigcontent #conshow .introtext {
+	margin: 10px auto 0 auto;
+	padding: 8px;
+	width: 600px;
+	height: 45px;
+	border-radius: 7px;
+	background-color: rgba(245,245,245,0.7);
+}
+#bigMediaContainer .bigcontent .arrow {
+	float: left;
+	margin-top: 300px;
+	width: 8%;
+	height: 50px;
+	background-size: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#bigMediaContainer .bigcontent .prearrow {
+	background-image: url(../image/medialeft.png);
+}
+#bigMediaContainer .bigcontent .prearrow:hover {
+	background-image: url(../image/medialefth.png);
+}
+#bigMediaContainer .bigcontent .nexarrow {
+	background-image: url(../image/mediaright.png);
+}
+#bigMediaContainer .bigcontent .nexarrow:hover {
+	background-image: url(../image/mediarighth.png);
+}
+
+/*推文板块*/
+.recommend .essay {
+	height: 920px;
+}
+.recommend .essay .acticlepart{
+	padding: 0 8%;
+	width: 84%;
+	height: 500px;
+}
+.recommend .essay .acticlepart .acti_img{
+	width: 58%;
+	height: 100%;
+	float: left;
+	background-color: rgba(210,210,210,.5); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat; 
+}
+
+.recommend .essay .acticlepart .acti_img .actiarrow {
+	display: inline-block;
+	margin-top: 225px;
+	width: 50px;
+	height: 50px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+.recommend .essay .acticlepart .acti_img .actipre{
+	float: left;
+	margin-left: 30px;
+	background-image: url(../image/app_acti_left.png);
+}
+.recommend .essay .acticlepart .acti_img .actipre:hover{
+	background-image: url(../image/app_acti_lefth.png);
+}
+.recommend .essay .acticlepart .acti_img .actinex{
+	float: right;
+	margin-right: 30px;
+	background-image: url(../image/app_acti_right.png);
+}
+.recommend .essay .acticlepart .acti_img .actinex:hover{
+	background-image: url(../image/app_acti_righth.png);
+}
+
+.recommend .essay .acticlepart .acti_show{
+	width: 42%;
+	height: 100%;
+	float: left;
+	background-image: url(../image/bg_acticon.png);
+	background-size: cover;
+}
+.recommend .essay .acticlepart .acti_show .acti_text{
+	margin: 42px 15% 0 45px;
+	padding-left: 45px;
+	width: 75%;
+	height: 375px;
+	background-image: url(../image/acti_left.png);
+	background-size: 8% auto;
+	background-repeat: no-repeat;
+}
+.recommend .essay .acticlepart .acti_show .acti_text:after{
+	content: "";
+	padding: 15px;
+	margin-left: 85%;
+	background-image: url(../image/acti_right.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+.recommend .essay .acticlepart .acti_show:hover .acti_text{
+	background-image: url(../image/acti_lefthover.png);
+}
+.recommend .essay .acticlepart .acti_show:hover .acti_text:after{
+	background-image: url(../image/acti_righthover.png);
+}
+.recommend .essay .acticlepart .acti_show .acti_text .text_head{
+	display: inline-block;
+	padding-top: 18px;
+	width: 100%;
+	color: rgb(51,151,255);
+	font-size: 25px;
+	cursor: pointer;
+}
+.recommend .essay .acticlepart .acti_show .acti_text .text_con{
+	display: inline-block;
+	position: relative;
+	margin-top: 15px;
+	padding: 15px 0 0 11px;
+	border-top: 2px solid rgb(182,182,179);
+	width: 67%;
+	height: 185px;
+	color: rgb(23,119,180);
+	font-family: "MicrosoftJhengHei","华文细黑";
+	font-size: 15px;
+	overflow: hidden;
+}
+.recommend .essay .acticlepart .acti_show .acti_text .text_con:after {
+	content: "......"; 
+	position: absolute; 
+	bottom: 0; 
+	right: 0; 
+	padding-left: 40px;
+	background: -webkit-linear-gradient(left, transparent, #fff 55%);
+	background: -o-linear-gradient(right, transparent, #fff 55%);
+	background: -moz-linear-gradient(right, transparent, #fff 55%);
+	background: linear-gradient(to right, transparent, #fff 55%);
+}
+.recommend .essay .acticlepart .acti_show .acti_text .text_time,
+.recommend .essay .acticlepart .acti_show .acti_text .text_author{
+	display: inline-block;
+	margin: 40px 25px 0 0;
+	color: rgb(23,119,180);
+	font-size: 12px;
+}
+.recommend .essay .acticlepart .acti_show .tag{
+	display: inline-block;
+	margin: 25px 0 0 8%;
+	border-radius: 7px;
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	background-image: url(../image/tags.png);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	color: rgb(255,255,255);
+	font-size: 13px;
+	text-align: center;
+}
+.recommend .essay .more_acti{
+	margin: 40px auto 0 auto;
+	width: 140px;
+	height: 45px;
+	line-height: 45px;
+	background-color: rgb(83,187,255);
+	font-size: 16px;
+	text-align: center;
+}
+.recommend .essay .more_acti:hover {
+	background-color: rgb(73,157,255);
+}
+.recommend .essay .more_acti>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: rgb(255,255,255);
+}
+
+
+/*活动板块*/
+.recommend .activity {
+	height: 600px;
+}
+.recommend .activity .activitycon{
+	padding: 0 8%;
+	height: 140px;
+}
+.recommend .activity .activitycon .activity_item{
+	width: 20%;
+	height: 100%;
+	float: left;
+	color: rgb(255,255,255);
+	font-size: 22px;
+	text-align: center;
+	cursor: pointer;
+}
+.recommend .activity .activitycon .item-1 {
+	background-color: rgb(122,159,245);
+}
+.recommend .activity .activitycon .item-2 {
+	background-color: rgb(98,142,245);
+}
+.recommend .activity .activitycon .item-3 {
+	background-color: rgb(74,125,245);
+}
+.recommend .activity .activitycon .item-4 {
+	background-color: rgb(49,108,245);
+}
+.recommend .activity .activitycon .item-5 {
+	line-height: 140px;
+	background-color: rgb(25,91,245);
+}
+.recommend .activity .activitycon .item-5>a {
+	width: 100%;
+	height: 100%;
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+.recommend .activity .activitycon .activity_item .activity_name{
+	padding: 15% 0 10px 0;
+	width: 100%;
+}
+.recommend .activity .activitycon .activity_item .activity_time {
+	width: 100%:;
+	height: 70px;
+}
+
+.recommend .activity .acti-introduce {
+	position: absolute;
+	left: 0;
+	margin-top: 25px;
+	width: 304px;
+	opacity: 0;
+	color: rgb(100,100,100);
+}
+.recommend .activity .acti-introduce .introcon {
+	width: 100%;
+	border-radius: 8px;
+}
+.recommend .activity .acti-introduce .introcon .introcon-img {
+	width: 100%;
+	height: 171px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	list-style: none;
+}
+.recommend .activity .acti-introduce .introcon .introcon-text {
+	padding: 1% 2%;
+	width: 96%;
+	height: 80px;
+	background-color: rgba(210,210,210,.5);
+	list-style: none;
+}
+
+
+/*关于星空*/
+.aboutus{
+	padding: 0 10%;
+	width: 80%;	
+	height: 775px;
+	background-image: url(../image/bg_aboutus.jpg);
+	background-size: cover;
+}
+.aboutus .apartms_introduce{
+	margin-top: 90px;
+	width: 100%;
+}
+.aboutus .apartms_introduce .us_item{
+	max-width: 265px;
+	width: 18%;
+}
+.aboutus .apartms_introduce .us_item .showpart{
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: rgb(236,227,227);
+	overflow: hidden;
+}
+.aboutus .apartms_introduce .us_item .showpart .brief{
+	width: 100%;
+	height: 500px;
+	border: 2px solid rgb(236,227,227);
+	border-radius: 10px;
+	background-color: rgb(255,255,255);
+}
+
+.aboutus .apartms_introduce .us_item .showpart .brief .icon{
+	width: 80%;
+	height: 100%;
+	float: left;
+	background-size: 50% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.aboutus .apartms_introduce .us_item .showpart .brief .jsicon{
+	background-image: url(../image/jsicon.jpg);
+}
+.aboutus .apartms_introduce .us_item .showpart .brief .cmicon{
+	background-image: url(../image/cmicon.jpg);
+}
+.aboutus .apartms_introduce .us_item .showpart .brief .ycicon{
+	background-image: url(../image/ycicon.jpg);
+}
+
+.aboutus .apartms_introduce .us_item .showpart .brief .apartment{
+	padding-top: 3px;
+	width: 20%;
+	height: 100%;
+	line-height: 30px;
+	float: left;
+	background-color: rgb(101,173,248);
+	color: rgb(255,255,255);
+	font-size: 28px;
+	text-align: center;
+}
+.aboutus .apartms_introduce .us_item .showpart .brief .introduce{
+	padding: 8% 7% 0 7%;
+	width: 84%;
+	float: left;
+	color: rgb(69,160,255);
+	font-size: 14px;
+	text-indent: 26px;
+}
+
+
+/*微信公众号*/
+.wechatus{
+	width: 100%;
+	height: 400px;
+	background-color: rgb(245,245,240);
+	background-image: url(../image/bg_wechatus.png);
+	background-size: cover;
+	background-position: center;
+}

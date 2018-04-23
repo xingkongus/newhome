@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/**
+  * @created: 2018.03
+  * @author: kidultyx
+  * @version: 1.2
+  * @desc: 星空网尾栏
+  */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+html,
+body{
+	width: 100%;
+}
+
+footer{
+	padding-top: 70px;
+	width: 100%;
+	height: 420px;
+	background-image: url(../image/bg_footer.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: rgb(255,255,255);
+	text-align: center;
+}
+footer .uslogo{
+	margin: 0 auto;
+	width: 120px;
+	height: 66px;
+}
+footer .uslogo>img{
+	width: 100%;
+}
+
+footer .other {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 250px;
+	height: 50px;
+}
+
+footer .other .weibo,
+footer .other .youku,
+footer .other .blog,
+footer .other .mail {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+footer .other .weibo {
+	margin-left: 10px;
+	background-image: url(../image/weibo.jpg);
+}
+footer .other .youku {
+	background-image: url(../image/youku.jpg);
+}
+footer .other .blog {
+	background-image: url(../image/blog.jpg);
+}
+footer .other .mail {
+	background-image: url(../image/mail.jpg);
+}
+
+footer .copyright{
+	margin-top: 75px;
+	width: 100%;
+	height: 100px;
+	font-size: 15px;
+	text-align: center;
+}
