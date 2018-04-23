@@ -1,0 +1,184 @@
+{
+	"bannerdata": [
+		{
+			"img": "image/banner/tree.jpg"
+		},
+		{
+			"img": "image/banner/banner1.png"
+		},
+		{
+			"img": "image/banner/wechatBanner.jpg"
+		},
+		{
+			"img": "image/banner/live_common.jpg"
+		}
+	],
+
+	"appdata": [
+			{
+				"text": "觉浅",
+				"img": "image/product/case-1.png"
+			},
+			{
+				"text": "星名片",
+				"img": "image/product/case-2.jpg"
+			},
+			{
+				"text": "星直播",
+				"img": "image/product/case-3.png"
+			},
+			{
+				"text": "后工坊",
+				"img": "image/product/case-4.png"
+			},
+			{
+				"text": "学习库",
+				"img": "image/product/case-5.jpg"
+			},
+			{
+				"text": "二手市场",
+				"img": "image/product/case-6.jpg"
+			},
+			{
+				"text": "快乐班级",
+				"img": "image/product/case-7.jpg"
+			},
+			{
+				"text": "唱响新声",
+				"img": "image/product/case-8.png"
+			},
+			{
+				"text": "大数据",
+				"img": "image/product/case-9.png"
+			}
+		],
+
+	"tuiwendata": [
+
+		{
+			"href": "http://mp.weixin.qq.com/s/zzLrHUQlcX066RgBLHUGCw",
+			"img": "image/tuiwen/wt_1.jpg",
+			"head": "你已经很久没找我聊天了",
+			"content": "假期的时候，朋友开玩笑说，现在也只有服务号和腾讯新闻不离不弃的发信息给自己。可是，还真是这样。事实在每个人身上都有发生，感同身受。点开最近通话，只有父母带来问候；点开微信，腾讯可以连续带来几条新闻；点开QQ，一如既往提醒你冷暖的是天气预报。我能想到和你的联系方式只有这些了，可是我们好久不聊天。",
+			"time": "2018/03/15",
+			"author": "@丫丫",
+			"tag1": "内心独白",
+			"tag2": "友谊",
+			"tag3": "联系"
+		},
+		{
+			"href": "http://mp.weixin.qq.com/s/RkaXiubQapUlkKFuQ6fNHQ",
+			"img": "image/tuiwen/wt_2.jpg",
+			"head": "OSOS丨如果还能再见 等你到2036年",
+			"content": "以前去唱K的时候，罗同学会点首侧田的《感动》给我唱。其实我每次都不好意思告诉他，我想唱的是《美丽之最》。一讲到侧田，很多人第一反应就是他那顶常年不摘的帽子。既没有出众的外貌，又不靠包装不靠炒作，侧田仅凭个人实力带给歌迷无数感动。还记得《KONG》是自己听侧田的第一首歌，那时候应该还在读小学。别人听周杰伦的时候，我的QQ音乐历史播放记录几乎都是侧田的歌。",
+			"time": "2018/02/26",
+			"author": "@北极熊",
+			"tag1": "歌与事",
+			"tag2": "恋情",
+			"tag3": "再见"
+		},
+		{
+			"href": "http://mp.weixin.qq.com/s/14axuz8KU3YEEzt22JyStw",
+			"img": "image/tuiwen/wt_3.jpg",
+			"head": "早知道当初就不该下凡",
+			"content": "有的旅行是为了勇气，有的是为了寻找。可是这趟旅行，我是为了什么？||还记得那天，天空阴沉沉的，地上湿漉漉的，一如我当时的心情。-“我们分手吧”-“好”用了不到五秒，就给这段五年的感情画上句号，没想到我们还是会走到这里。我没有规划地，买了票，坐上绿皮火车。前方即将发生什么，我不知道，只知道想到一个没有你的地方。或者，把你之前说要带我去的地方都去一次，给这段感情画上个不完整的句号。",
+			"time": "2018/01/28",
+			"author": "@Lion",
+			"tag1": "情感",
+			"tag2": "摄影",
+			"tag3": "生活"
+		},
+		{
+			"href": "http://mp.weixin.qq.com/s/ePth1DNi04KigKHusxVVfw",
+			"img": "image/tuiwen/wt_4.jpg",
+			"head": "写完这篇推文，我是寒心的。",
+			"content": "想必各位都听过艾莎公主、小猪佩奇、天线宝宝、米老鼠等许多有趣的卡通人物。但最近，有人揭发出在YouTube上流传的一些内容，披着这些经典卡通形象的外衣，实际是充斥着诸如色情、暴力、血腥等元素。经典的卡通形象本是我们的童年，但现在却成为了噩梦。而这个噩梦，其实早早就已经漂洋过海来到了我们身边。事情传播开来是因为一位博主@肉呆大魔王的一条微博一篇翻译的文章《一群变态锁定观看YouTube的孩童，我以前为他们工作》。",
+			"time": "2018/01/25",
+			"author": "@肥春",
+			"tag1": "人性",
+			"tag2": "思考",
+			"tag3": "保护"
+		},
+		{
+			"href": "http://mp.weixin.qq.com/s/V9OPvY3Wm4OImA0hjN0qkA",
+			"img": "image/tuiwen/wt_5.jpg",
+			"head": "看清楚人，再来发烂渣",
+			"content": "“我说了别动我的衣柜怎么不听啊?”“别烦我啊我在打游戏呢！”“你们真的好烦啊能不能别管我干什么？”《超级演说家》中有一期，寇乃馨演讲的《别对你爱的人飙狠话》引起了很多人的同感，里面提到的一点就是:很多人会选择把自己最好的一面给陌生人，而坏的脾气态度都给自己亲近的人。越来越多人脾气不好，对亲近的人乱发脾气，还理直气壮的说：“我天生性格如此”。为什么我们敢在亲近的人面前发脾气，但在其他人面前却又一副彬彬有礼的模样？",
+			"time": "2018/02/01",
+			"author": "@老科",
+			"tag1": "内心独白",
+			"tag2": "家人",
+			"tag3": "生活"
+		}
+	],
+
+	"designdata" : [
+		{
+			"img" : "image/media/mediaDesign1.jpg",
+			"text" : "冬至到，吃饺子"
+		},
+		{
+			"img" : "image/media/mediaDesign2.jpg",
+			"text" : "好好学习，天天向上"
+		},
+		{
+			"img" : "image/media/mediaDesign3.jpg",
+			"text" : "Merry Christmas!"
+		},
+		{
+			"img" : "image/media/mediaDesign4.jpg",
+			"text" : "十月中，雨下而为寒气所薄，故凝而为雪。小者未盛之辞。"
+		},
+		{
+			"img" : "image/media/mediaDesign5.jpg",
+			"text" : "树荫方圆，花开四季"
+		}
+	],
+
+	"photodata" : [
+		{
+			"img" : "image/media/mediaPhotograph1.jpg",
+			"text" : "生命是条哀伤的河"
+		},
+		{
+			"img" : "image/media/mediaPhotograph2.jpg",
+			"text" : "错综复杂"
+		},
+		{
+			"img" : "image/media/mediaPhotograph3.jpg",
+			"text" : "城市之光"
+		},
+		{
+			"img" : "image/media/mediaPhotograph4.jpg",
+			"text" : "日落对黄昏"
+		},
+		{
+			"img" : "image/media/mediaPhotograph5.jpg",
+			"text" : "夜色"
+		}
+	],
+
+	"mvideodata" : [
+		{
+			"src" : "https://v.qq.com/iframe/player.html?vid=x0502fsgta2&tiny=0&auto=0",
+			"text" : "我们毕业啦"
+		},
+		{
+			"src" : "https://v.qq.com/iframe/player.html?vid=t0505ssnj07&tiny=0&auto=0",
+			"text" : "绝对不能错过的福利！hhhhh"
+		},
+		{
+			"src" : "https://v.qq.com/iframe/player.html?vid=t0509hyim88&tiny=0&auto=0",
+			"text" : "遇见你们  是我的幸运任务来临时绞尽脑汁，通宵熬夜也不会感到苦逼，和你们一起的感觉真的很棒"
+		},
+		{
+			"src" : "https://v.qq.com/iframe/player.html?vid=g05613gn1y2&tiny=0&auto=0",
+			"text" : "大学最美好的期待就是谈一场恋爱！  可惜的是，我还是一只单身狗   这狗粮，我啃了..."
+		},
+		{
+			"src" : "https://v.qq.com/iframe/player.html?vid=b0513evzihj&tiny=0&auto=0",
+			"text" : "大吉大利，晚上吃鸡！  大吉大利，晚上吃鸡！"
+		}
+	]
+
+}
